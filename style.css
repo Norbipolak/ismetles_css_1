@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    /*
+    Ez az alapbeállítás, nem is kell ideírni, mert ez az alapértelmezett érték 
+    */
+}
+body {
+    min-height: 5000px;
+}
+/*
+Csinálunk egy div-et, aminek a class-ja az lesz, hogy square 
+*/
+.square {
+    height: 200px;
+    width: 200px;
+    border:5px solid grey;
+    padding: 15px;
+}
+
+.float-left-square {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    float: left;
+    background-color: red;
+    line-height: 200px;
+    color: white;
+    text-align: center;
+}
+
+.clear-left {
+    clear: left;
+}
+
+.clear-right {
+    clear: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.float-right-square {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    float: right;
+    background-color: red;
+    line-height: 200px;
+    color: white;
+    text-align: center;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+    width: 100px;
+    height: 30px;
+    background-color: red;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+.static-square {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: static;
+    left: 200px;
+}
+
+.relative-square {
+    width: 200px;
+    height: 200px;
+    background-color: khaki;
+    position: relative;
+    left: 50px;
+    margin: 5px 0;
+}
+
+.absolute-square {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50px;
+    margin: 5px 0;
+}
+
+.fully-absolute-square {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 500px;
+    top: 150px;
+    background-color: darkgoldenrod;
+}
+
+.fixed-square {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    left: 500px;
+    top: 150px;
+    background-color: firebrick;
+}
+
+.sticky-square {
+    width: 200px;
+    height: 200px;
+    position: sticky;
+    left: 150px;
+    top: 150px;
+    background-color: goldenrod;
+}

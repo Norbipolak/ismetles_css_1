@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CSS</h1>
+    <h2>Mi a különbség az ID és a Class között</h2>
+
+    <h2>Mi a különbség a box-sizing: border-box és a content-box között?</h2>
+    <div class="square"></div>
+
+    <h2>Milyen szöveg elrendezéseket ismersz?</h2>
+    <b>text-align</b>
+    <ul>
+        <li>center</li>
+        <li>right</li>
+        <li>left</li>
+        <li>justify -> sorkizárt -> faltól falig</li>
+    </ul>
+
+    <h2>Mit tudsz elmondani a float és clear tulajdonságokról</h2>
+    <h3>Float:left</h3>
+
+    <div class="float-left-square">1</div>
+    <div class="float-left-square">2</div>
+    <div class="float-left-square clear-left">3</div>
+    <div class="float-left-square">4</div>
+
+    <div class="clear"></div>
+
+    <h3>Float:right</h3>
+    <div class="float-right-square">1</div>
+    <div class="float-right-square">2</div>
+    <div class="float-right-square clear-right">3</div>
+    <div class="float-right-square">4</div>
+
+    <div class="clear"></div>
+
+    <h2>Milyen display tulajdonságokat ismersz?</h2>
+    <ul>
+        <li>block</li>
+        <li>flex</li>
+        <li>grid</li>
+        <li>inline</li>
+        <li>inline-block</li>
+        <li>table</li>
+        <li>table-cell</li>
+    </ul>
+
+    <table>
+        <caption>This is a table!</caption>
+        <tr>
+            <th>fdhrhb</th>
+            <th>fdhrhb</th>
+            <th>fdhrhb</th>
+        </tr>
+    </table>
+
+    <h3>Mi az a display: block?</h3>
+    <p>
+        A display: block azt határozza meg, hogy az elemek egymás alatt helyezkednek el
+    </p>
+
+    <span class="block">1</span>
+    <span class="block">2</span>
+    <span class="block">3</span>
+    <span class="block">4</span>
+    <i class="block">Italic</i>
+    <b class="block">sdgsdg</b>
+
+    <h3>Mi az a display: inline</h3>
+    <p>
+        A display: inline egymás mellé rendezi az elemeket és 
+        ezeknek a tageknek nem adhatóak meg a width és a height tulajdonságok
+    </p>
+
+    <div class="inline">1</div>
+    <div class="inline">2</div>
+    <div class="inline">3</div>
+
+    <h3>Mi az a display: inline-block?</h3>
+    <p>
+        A display: inline-block az ugyanaz, mint a display: inline, csak 
+        meg tudunk neki határozni szélességet és magasságot 
+    </p>
+
+    <div class="inline-block">1</div>
+    <div class="inline-block">2</div>
+    <div class="inline-block">3</div>
+
+    <h1>CSS poziciónálás</h1>
+    <h2>Static pozició</h2>
+    <p>
+        A static az alapértékmezett pozició. Nem müködnek nála a 
+        left, right, top, bottom tulajdonságok
+    </p>
+
+    <div class="static-square"></div>
+
+    <h2>Relative pozició</h2>
+    <p>
+        A relative engedélyezi a left, right, top, bottom 
+        tulajdonságok érvényesítését 
+    </p>
+
+    <div class="relative-square"></div>
+    <div class="relative-square"></div>
+
+    <h2>Absolute pozició</h2>
+    <p>
+        Az absolute is engedélyezi a left, rigth, top, bottom
+        tulajdonságokat, de ő egy abszolút pozociót határoz meg, 
+        és nem veszi figyelembe a többi elem helyzetét 
+    </p>
+
+    <div class="absolute-square" style="background-color: blue; z-index: 1;"></div>
+    <div class="absolute-square" style="background-color: crimson; left: 80px"></div>
+
+    <div class="fully-absolute-square"></div>
+
+    <h2>Fixed pozició</h2>
+
+    <div class="fixed-square"></div>
+
+    <h2>Sticky</h2>
+
+    <div class="sticky-square"></div>
+
+</body>
+</html>
